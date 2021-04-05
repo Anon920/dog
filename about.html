@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D-pot</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="https://kit.fontawesome.com/1353794163.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="logo_about">
+       <div class="container-menu">
+           <div class="row">
+               <div class="logo-img">
+                   <img src="img/logo.png" alt="">
+               </div>
+               <div class="menu">
+                   <div class="menu-text">
+                       <ul>
+                           <li class="nav_li"><a class="link" href="#">Log in \ Register</a></li>
+                           <li class="nav_li"><a href="#"><i class="fas fa-search"></i></a></li>
+                           
+                           <li class="active">
+							 <div id="myNav" class="overlay" style="width: 0%;">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                             <div class="overlay-content">
+                             	<a href="index.html">Home</a>
+                                <a href="about.html">About</a>
+                                <a href="gallery.html">Gallery</a>
+                                <a href="contact.html">Contact</a>
+                              </div>
+                            </div>
+                             <span style="font-size:30px;cursor:pointer" onclick="openNav()">☰ Menu</span>
+                            </li>
+                            
+                       </ul>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="about_section_2">
+        <div class="about_text">
+            <div class="container">
+                <h1 class="title"><strong><span style="color: #f7941d">About</span> Dogs</strong></h1>
+                <p class="about_subtitle">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exer</p>
+                <div class="about_btn">
+                    <a href="#" class="more_btn">Read more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+       </header>
+       
+       <footer class="footer_section">
+        <div class="container">
+            <div class="mail_section">
+                <ul>
+                    <li class="footer_logo">
+                        <img src="img/footer-logo.png" alt="">
+                    </li>
+                    <li class="footer_logo">
+                        <img src="img/map-icon.png" alt="">
+                        <span class="map_text">Gb road 123 london Uk</span>
+                    </li>
+                    <li class="footer_logo">
+                        <img src="img/call-icon.png" alt="">
+                        <span class="map_text">(+71) 9876543210</span>
+                    </li>
+                    <li class="footer_logo">
+                        <img src="img/map-icon.png" alt="">
+                        <span class="map_text">Info@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="social_icon">
+                <div class="row">
+                    <div class="footer_icon">
+                        <div class="icons">
+                            <ul>
+                                <li class="face">
+                                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                                </li>
+                                <li class="left">
+                                    <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                                </li>
+                                <li class="left">
+                                    <a href="https://www.google.com/"><i class="fab fa-google-plus-square"></i></a>
+                                </li>
+                                <li class="left">
+                                    <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                2019 All Rights Reserved
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+    function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+   document.getElementById("myNav").style.width = "0%";
+   }
+</script>
+</body>
+</html>
